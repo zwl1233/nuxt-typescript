@@ -1,0 +1,31 @@
+export const state = () => ({
+  tabId:-1,//tab切换
+  page:1,
+  orderList:{},//订单list 
+})
+export const mutations = {
+    //切换tab
+  changeTab(state,id){
+    console.log('id',id)
+    state.tabId=id
+    state.page=1 
+  },
+  //获取订单list
+  getOrderList(state,list){
+    console.log(list,'我是订单')
+    state.orderList=list
+  },
+  changePage(state){ 
+    //加载更多
+    state.page++   
+    console.log(state.page,'page')
+  }, 
+  addlist(state,newarr){
+    newarr.forEach((item)=>{
+        state.orderList.push(item)
+  })
+},
+  pageZero(state){
+    state.page=1
+  }
+}

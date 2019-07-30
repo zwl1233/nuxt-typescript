@@ -1,0 +1,929 @@
+/******** 公共 ********/
+html,body,p,ul,li,ol,dl,h1,h2,h3,h4,h5,h6,img{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+ 
+.fzGB1-0{
+    font-family: FZLTHJW--GB1-0 !important;
+}
+.fzHeitiStdR{
+    /* font-family:Adobe Heiti Std R !important; */
+}
+.fzSim-Sun{
+    /* font-family:SimSun !important;;  */
+}
+.fzSTHeitiSC-um{
+    /* font-family:STHeitiSC-Medium !important; */
+}
+.fzMicroYaHei{
+        /* font-family:MicrosoftYaHei  !important; */
+}
+.fzSTSongti-Regu{
+    /* font-family:STSongti-SC-Regular !important; */
+}
+.fz28{
+    font-size: 28px!important;
+}
+
+.w1140{
+    width: 1140px;
+}
+
+
+/*Width*/
+.w1000{ width: 1000px; }
+.w910{ width: 910px; }
+.w960{ width: 960px; }
+.w900{ width: 900px; }
+/******************* margin *******************/
+.m-auto{ margin: 0px auto !important; }
+/*left*/
+.ml-10{ margin-left: 10px; }
+.ml-15{ margin-left: 15px; }
+.ml-20{ margin-left: 20px; }
+.ml-30{ margin-left: 30px; }
+.ml-35{ margin-left: 35px; }
+.ml-110{ margin-left: 110px; }
+/*right*/
+.mr-10{ margin-right: 10px; }
+.mr-15{ margin-right: 15px; }
+.mr-20{ margin-right: 20px; }
+.mr-30{ margin-right: 30px; }
+.mr-60{ margin-right: 60px; }
+
+.mr-150{ margin-right: 120px; }
+/**top**/
+.mt-5{ margin-top: 5px; }
+
+.mt-10{ margin-top: 10px !important; }
+.mt-15{ margin-top: 15px; }
+.mt-20{ margin-top: 20px; }
+.mt-24{ margin-top: 24px; }
+.mt-30{ margin-top: 30px; }
+.mt-40{ margin-top: 40px !important; }
+.mt-60{ margin-top: 60px !important; }
+
+.mt-73{ margin-top: 73px; }
+.mt-90{ margin-top: 90px; }
+
+
+/**bottom**/
+.mb-0{ margin-bottom: 0px; }
+.mb-5{ margin-bottom: 5px; }
+.mb-10{ margin-bottom: 10px; }
+.mb-15{ margin-bottom: 15px; }
+.mb-20{ margin-bottom: 20px; }
+.mb-30{ margin-bottom: 30px !important; }
+.mb-40{ margin-bottom: 40px; }
+.mb-65{ margin-bottom: 65px; }
+
+.mb-100{ margin-bottom: 100px; }
+/********************* padding ***********************/
+.pad-0 { padding: 0px !important;}
+/*left*/
+.pl-10 { padding-left: 10px !important;}
+.pl-15 { padding-left: 15px;}
+.pl-20 { padding-left: 20px;}
+.pl-25 { padding-left: 25px;}
+.pl-30 { padding-left: 30px;}
+.pl-35 { padding-left: 35px;}
+.pl-40{ padding-left: 40px; }
+.pl-110 { padding-left: 110px;}
+/*right*/
+.pr-10 { padding-right: 10px;}
+.pr-15 { padding-right: 15px;}
+.pr-20 { padding-right: 20px;}
+.pr-30 { padding-right: 30px;}
+.pr-40 { padding-right: 40px;}
+/**top**/
+.pt-10 { padding-top: 10px;}
+.pt-15 { padding-top: 15px;}
+.pt-20 { padding-top: 20px;}
+.pt-24 { padding-top: 24px;}
+.pt-30 { padding-top: 30px;}
+.pt-40 { padding-top: 40px;}
+/**bottom**/
+.pb-10 { padding-bottom: 10px;}
+.pb-15 { padding-bottom: 15px;}
+.pb-20 { padding-bottom: 20px;}
+.pb-30 { padding-bottom: 30px;}
+.pb-60 { padding-bottom: 60px;}
+.pb-100 { padding-bottom: 100px;}
+
+/*暂无数据*/
+.null-text{ width: 100%; height: 4.0625rem; line-height: 4rem; font-size: 16px; color: #999; }
+/**其他**/
+.cursor-pointer{ cursor:pointer; }
+
+.fl{ float: left !important; }
+.fr{ float: right !important; }
+
+.text-center{ text-align: center !important; }
+.text-left{ text-align: left !important; }
+.text-right{ text-align: right !important; }
+
+.flex{ display: flex; }
+.dis_inline{ display: inline !important; }
+.dis_block{ display: block !important; }
+.dis_in_block{ display: inline-block; }
+.dis_flow{
+    display: flow-root;
+}
+
+.middle{ vertical-align: middle; }
+
+.pos_r{ position: relative; }
+.pos_a{ position: absolute; }
+.radius4{ border-radius: 4px; }
+
+.bold{ font-weight: bold; }
+
+a{ text-decoration: none; }
+a:hover{ cursor: pointer; }
+
+.cursor { cursor: pointer;}
+.clear{ clear:both; }
+
+/*** font-size ****/
+.fz12{ font-size: 12px; }
+.fz14{ font-size: 14px; }
+.fz15{ font-size: 15px; }
+.fz16{ font-size: 16px !important; }
+.fz17{ font-size: 17px; }
+
+.fz18{ font-size: 18px !important; }
+.fz20{ font-size: 20px; }
+.fz22{ font-size: 22px; }
+
+.fz24{ font-size: 24px; }
+.fz32{ font-size: 32px; }
+.fz34{ font-size: 34px; }
+
+
+/*Color*/
+.bg3f{ background: #fff; }
+.bg_transparent{ background: transparent; }
+
+/*主色-灰色*/
+.bgf4{ background:#f4f0ee; }
+
+.bgf1{ background: #F1EEEB; }
+.bgfb{ background: #FBF8F5; }
+
+.cf{ color: #fff !important; }
+.c3{ color: #333 !important; }
+.c3d{ color: #ddd !important; }
+.c6{ color: #666; }
+.c8{ color: #888; }
+.c89{ color: #898989; }
+
+.c7271{ color: #727171; }
+.c4c49{ color:#4C4948; }
+.c5957{ color: #595757; }
+
+.c9{ color: #999 !important; }
+
+.c030{ color: #030000; }
+.c30{ color: #000; }
+
+.c077{ color: #07767A; }
+.c087{ color: #087276 }
+.c097{ color: #097276 }
+.c1e7{ color: #1E7275; }
+
+.ccf7{ color: #cf7065 }
+.c008{ color: #008aba; }
+.cbb5{ color: #bb5b83; }
+.cff3b{
+    color:#FF3B3B;
+}
+.c648{
+    color: #648ea2;
+}
+.c969{
+    color: #969a70;
+}
+.cb69{
+    color: #b69271;
+}
+
+.cb19{
+    color: #B19575;
+}
+
+.cad4{
+    color: #ad4e3f;
+}
+
+.cca3{
+    color: #CA341C;
+}
+
+/** 课堂-列表 **/
+.c998{ color: #998675; }
+
+.c4a5{ color: #C4A57F; }
+
+/**/
+
+
+/** 个人中心 **/
+.cb49{ color: #B49876 }
+
+
+
+
+
+
+
+/*** Btn ***/
+.phase-button{
+    width:90px;
+    height:26px;
+    font-size: .875rem;
+    border-radius:2px;
+    color: #fff;
+    border:0px;
+    outline:none;
+}
+
+/*第一阶*/
+.phase-button-one{
+    background:#e9e7e7;  
+    outline:none; 
+}
+
+/*第2阶*/
+.phase-button-two{
+    background:#969a70;   
+    outline:none;  
+}
+
+/*第3阶*/
+.phase-button-three{
+    background: #b69271;
+    outline:none;
+}
+/*第4阶*/
+.phase-button-four{
+    background: #ad4e3f;
+    outline:none;
+
+}
+
+/*立即报名*/
+.btn-green{
+    width:158px;
+    height:40px;
+    color: #fff;
+    border-radius:3px;
+    font-size: 21px;
+    background:#097276;
+    border-color: #078186;
+    border:1px solid ;
+    outline:none;
+}
+
+/*赠课给他人*/
+.btn-yellow{
+    width:158px;
+    height:45px;
+    color: #fff;
+    font-size: 24px;
+    border-radius:3px;
+    background:#d28f31;
+    border-color: #c58b38;
+    outline:none;
+
+}
+
+/*已报名*/
+.btn-green-over{
+    width:140px;
+    height:40px;
+    background:#000000;
+    opacity:0.2;
+    color: #fff;
+    border-radius:2px;
+    font-size: 21px;
+    border: 1px solid #000;
+    outline:none;
+}
+
+/*赠课给他人-border*/
+.btn-yellow-border{
+    outline:none;
+    width:140px;
+    height:40px;
+    font-size: 19px;
+    color: #C4A57F;
+    background:transparent;
+    border:2px solid rgba(196, 165, 127, 1);
+    border-radius:2px;
+    cursor: pointer;
+    
+}
+
+/*** MyOrder btn ****/
+/*付款*/
+.btn-green-pay{
+    width:145px;
+    font-size: 21px;
+    height:40px;
+    color: #fff;
+    background:rgba(9,114,118,1);
+    border-radius:2px;
+    border:0px;
+    outline:none;
+}
+/*取消订单 - 申请退课 - 取消退课申请 */
+.btn-yellow-order{
+    width:145px;
+    height:40px;
+    font-size: 19px;
+    color: #C4A57F;
+    background:transparent;
+   
+    border:1px solid rgba(196, 165, 127, 1);
+    outline:none;
+}
+
+/* 发票开具中 */
+.btn-yellow-loading{
+    width:145px;
+    height:40px;
+    font-size: 21px;
+    background:#C4A57F;
+    opacity:0.3;
+    color: #fff;
+    border:0px;
+    border-radius:2px;
+    outline:none;
+}
+
+
+/** 已开发票-申请发票 **/
+.btn-yellow-invoice{
+    width:145px;
+    height:40px;
+    font-size: 19px;
+    color: #fff;
+    border:0px;
+    background:#C4A57F;
+    border-radius:2px;
+    outline:none;
+    cursor:pointer;
+}
+
+
+/** 转全阶 **/
+.btn-turnOrder{
+    width:145px;
+    height:40px;
+    background:#C4A57F;
+    border-radius:2px;
+    font-size: 21px;
+    color: #fff;
+    border: 0px;
+    outline:none;
+    cursor:pointer;
+}
+
+/* 同意 */
+.btn-Agreed{
+    width:145px;
+    height:40px;
+    background:rgba(180, 152, 118, 0.9);  
+    border-radius:2px;
+    color: #fff;
+    border:0px;
+    font-size: 21px;
+    line-height: 40px;
+    padding: 0px;
+    outline:none;
+    cursor:pointer;
+}
+
+.btn-Agreed:hover{    
+    background:rgba(180, 152, 118, 1);   
+    border:0px;
+}
+
+/* 不同意 */
+.btn-noAgreed{
+    width:145px;
+    height:40px;
+    background:#fff;
+    border:1px solid rgba(196, 165, 127, 1);
+    border-radius:2px;
+    font-size: 21px;
+    line-height: 40px;
+    padding: 0px;
+    outline:none;
+    color: rgba(196, 165, 127, 1);
+    cursor:pointer;
+
+}
+
+.btn-noAgreed:hover{
+    background:#f9f9f9;  
+    border:1px solid rgba(196, 165, 127, 1);
+    color: rgba(196, 165, 127, 1);
+}
+
+/***  购买  ***/
+.btn-buy{
+    width:91px;
+    height:32px;
+    background:#c4a57f;
+    color: #fff;
+    border:0px;
+    border-radius:3px;
+    outline: none;
+    cursor:pointer;
+}
+.btn-buy:hover{
+    cursor: pointer;
+    border:0px;
+    background:#daaf7a;
+    color: #fff;
+}
+
+/** 切换课程-收藏课程-说明 **/
+.btn-green-checkpoint{
+    width:90px;
+    font-size: 14px;
+    height:32px;
+    line-height: 32px;
+    color: #fff;
+    background:rgba(7,116,120,1);
+    border-radius:3px;
+    border: 0px;
+    padding: 0;
+    outline: none;    
+    font-weight:normal;
+}
+
+.btn-green-checkpoint:hover{
+    cursor: pointer;
+    background: #159094;
+}
+
+/** btn-晒作业 **/
+.btn-Bask_homework{
+    cursor: pointer;
+    width:91px;
+    height:32px;
+    background:rgba(180,152,118,1);
+    border-radius:3px;
+    border:0px;
+    color: #fff;
+    font-size: 14px;
+    outline:none;
+    cursor:pointer;
+}
+
+/*发表评论*/
+.btn-grayComment{
+    outline:none;
+    width:91px;
+    height:32px;
+    opacity:0.5;
+    border:0px;
+    color: #fff;
+    font-size: 14px;
+    border-radius:3px;
+    background:rgba(180,152,118,1);
+    cursor:pointer;
+}
+
+.btn-grayComment:hover{
+    
+    opacity:0.5;
+    border:0px;
+    color: #fff;
+    font-size: 14px;
+    border-radius:3px;
+    background:rgba(180,152,118,1);
+    cursor: pointer;
+    outline: none;
+    cursor:pointer;
+}
+
+
+
+/******* 每个标题 * title height ******/
+
+.Writingclass h3.c087, .Health_class h3.cb69, .Reading_class h3.c008, .Free_video h3.c030, .Classroom_teacher h3.c030, .homework h3.c030, .People_write h3.c030, .Four_stores h3.c097{
+    font-size: 37px;
+    padding-top: 88px;
+}
+
+.Writingclass h3.c087+p.c030, .Health_class h3.cb69+p.c030, .Reading_class h3.c008+p.c030, .Free_video h3.c030+p.c030, .Classroom_teacher h3.c030+p.c030, .homework h3.c030+p.c030, .People_write h3.c030+p.c030, .Four_stores h3.c097+p.c030 {
+    font-size: 19px;
+    margin-top: 5px;
+    margin-bottom: 74px;
+}
+
+
+
+
+/*** foot ***/
+.footer{
+    width: 1090px;
+    margin: 0px auto;
+   
+}
+
+.footer article{
+    margin: 63px 0px;
+    float: left;
+}
+
+.footer article>dl{
+    margin-right: 60px;
+    display: inline-block;
+    vertical-align: top;
+   
+}
+
+.footer article>dl>dt{
+    margin-bottom: 24px;
+    font-size: 16px;
+    color: #3e3a39;
+}
+
+.footer article>dl>dd{
+    font-size: 12px;
+    color: #585757;
+}
+
+.footer article:nth-child(1)>div h3{
+    margin-bottom: 24px;
+    font-size: 16px;
+    color: #3e3a39;
+}
+.footer article:nth-child(1){
+    padding-right: 60px;
+    margin-right: 52px;
+    /* border-right:1px solid #d9d3cf; */
+}
+
+.footer article:nth-child(1)>div:nth-child(1){
+    margin-right: 50px;
+}
+
+.footer article:nth-child(2) dl:nth-child(3){  
+    width: 280px;
+    margin: 0px;
+}
+
+.footer article:nth-child(2) dl+p{
+    margin-top: 22px;
+    font-size: 12px;
+    color: #585757;
+
+}
+
+/** 面包屑 **/
+.breadcrumb a::after{
+    content: '>';
+    display: inline-block;
+}
+
+.breadcrumb a:last-child::after{
+    display: none;
+}
+
+
+
+
+/****************** 覆盖轮播-· *******************/
+#test9 .layui-carousel-ind{
+    display: none;
+}
+
+/**** element-tab **/
+.overflowDefine .el-tabs__content{
+    overflow: initial;
+}
+
+
+/*** layui-ui ***/
+a {
+    color: #333;
+    text-decoration: none;
+}
+
+
+
+
+@media screen and (min-width: 992px){
+.layui-col-md1, .layui-col-md10, .layui-col-md11, .layui-col-md12, .layui-col-md2, .layui-col-md3, .layui-col-md4, .layui-col-md5, .layui-col-md6, .layui-col-md7, .layui-col-md8, .layui-col-md9 {
+    float: left;
+}
+}
+
+.layui-col-xs1, .layui-col-xs10, .layui-col-xs11, .layui-col-xs12, .layui-col-xs2, .layui-col-xs3, .layui-col-xs4, .layui-col-xs5, .layui-col-xs6, .layui-col-xs7, .layui-col-xs8, .layui-col-xs9 {
+    float: left;
+}
+
+
+.layui-col-xs6 {
+    width: 50%;
+}
+.layui-col-xs12 {
+    width: 100%;
+}
+
+
+@media screen and (min-width: 992px){
+    .layui-col-md5 {
+        width: 41.66666667%;
+    }
+
+    .layui-col-md7 {
+        width: 58.33333333%;
+    }
+}
+
+.layui-row:after, .layui-row:before {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+
+
+
+/***** element-ui *****/ 
+.leftClass-tab .el-tabs__item{
+    color: #666 ;
+}
+.leftClass-tab .el-tabs__item.is-active{
+    color: #B49876;
+}
+.leftClass-tab .el-tabs__item:hover{
+    color: #333;
+}
+
+
+/***    homeworkDetails   课程介绍- 课程内容-晒作业-评价  ***/
+
+.leftClass-tab .el-tabs__active-bar{
+    /* display: none; */
+    /* width:12px !important; */
+    /* height:12px !important; */
+    background:rgba(196,165,127,1);
+    border:4px solid #fff;
+    border-radius: 50%;
+}
+.Learning_content .leftClass-tab .el-tabs__nav{
+    text-align: center;
+    width: 100%;
+}
+
+.Learning_content .leftClass-tab .el-tabs__item.is-active::after{
+    content: '';
+    width: 12px !important;
+    height: 12px;
+    background: #C4A57F;
+    border-radius: 50%;
+    display: inline-block;
+    position: absolute;
+    bottom: -8px;
+    border: 3px solid #fff;
+    left: calc(38%);
+    box-shadow: 0px 7px 7px 2px rgba(14, 5, 10, 0.05);
+}
+
+.Learning_content .leftClass-tab .el-tabs__content{
+    overflow: inherit;
+}
+
+.Learning_content .leftClass-tab .el-tabs__active-bar{
+    display: none;
+}
+
+
+/* /课程介绍/ */
+.leftClass-tab .el-tabs__item.is-top:nth-child(2){
+    padding-left: 20px;
+}
+/* /评价/ */
+.leftClass-tab .el-tabs__item.is-top:last-child{
+    padding-right: 20px;
+
+}
+/*分割线-*/
+.leftClass-tab .el-tabs__nav-wrap::after{
+    height: 1px;
+    /* background: rgba(180, 152, 118, 0.4) */
+    opacity:0.4;
+    background: -webkit-linear-gradient(#EAEAEA, #D2C7BE,#EAEAEA); /* Safari 5.1 - 6.0 */
+    background: -o-linear-gradient(#EAEAEA, #D2C7BE,#EAEAEA); /* Opera 11.1 - 12.0 */
+    background: -moz-linear-gradient(#EAEAEA, #D2C7BE,#EAEAEA); /* Firefox 3.6 - 15 */
+    background: linear-gradient(#EAEAEA, #D2C7BE,#EAEAEA); /* 标准的语法（必须放在最后） */
+}
+
+
+/* .leftClass-tab div.el-tabs__nav-wrap.is-left::after,{
+    
+    content: '';
+    width:1px !important;
+    background: #e5dcd2;
+} */
+
+
+.el-tabs--left .el-tabs__nav-wrap.is-left::after, 
+/* .el-tabs--left .el-tabs__nav-wrap.is-right::after,  */
+/* .el-tabs--right .el-tabs__nav-wrap.is-left::after,  */
+.el-tabs--right .el-tabs__nav-wrap.is-right::after
+{
+    width:1px !important;
+
+    opacity:0.4;
+    background: -webkit-linear-gradient(#EAEAEA, #C4A57F,#EAEAEA); /* Safari 5.1 - 6.0 */
+    background: -o-linear-gradient(#EAEAEA, #C4A57F,#EAEAEA); /* Opera 11.1 - 12.0 */
+    background: -moz-linear-gradient(#EAEAEA, #C4A57F,#EAEAEA); /* Firefox 3.6 - 15 */
+    background: linear-gradient(#EAEAEA, #C4A57F,#EAEAEA); /* 标准的语法（必须放在最后） */
+}
+
+
+/** 注释这个是 homeworkDetails  晒作业-评价-课程内容-介绍**/
+/* .leftClass-tab .el-tabs__nav-wrap,  */
+
+.leftClass-tab .el-tabs__nav-wrap,.leftClass-tab .el-tabs__nav-scroll{
+    overflow: inherit;
+    display: flow-root;/* 为了适配高度-所导致的border-bottom */
+}
+
+.define-tabsOrder_list .el-tabs__nav-scroll{
+    overflow: inherit !important;
+    height: 54px;
+}
+
+
+.leftClass-tab.el-tabs--left .el-tabs__active-bar.is-left{
+    right:-9px;
+    top: 10px;
+}
+
+.leftClass-tab .define-tabsOrder_list .el-tabs__item.is-active::after{
+    content: '';
+    border:4px solid #fff;
+    box-shadow:0px 7px 7px 2px rgba(14,5,10,0.05);
+    left: 50%;
+    /* margin-left: -20px;   */
+    bottom: -16px;
+}
+
+.define-tabsOrder_list.el-tabs--top .el-tabs__item.is-top:nth-child(2) {
+    padding-left: 30px;
+}
+
+.leftClass-tab.el-tabs--left .el-tabs__item.is-left{
+    text-align: left;
+    width: 166px;
+
+}
+
+/** vue-active-状态按钮 **/
+
+/*单选-圆角*/
+.el-radio__input.is-checked .el-radio__inner{
+    border-color: #B49876!important;
+    background: #B49876!important;
+}
+
+.el-radio__input.is-checked+.el-radio__label{
+    color: #B49876;
+
+}
+/* 单选-圆角 end */
+
+/* 单选-方形 */
+.el-checkbox__input.is-checked .el-checkbox__inner, .el-checkbox__input.is-indeterminate .el-checkbox__inner{
+    border-color: #B49876;
+    background: #B49876;
+}
+
+.el-checkbox__input.is-checked+.el-checkbox__label{
+    color: #B49876;
+
+}
+/* 单选-方形 end*/
+
+
+
+
+/******************************************  -改版处理-  ***************************************/
+
+/*首页*/
+.Writingclass-phase ul li p:last-child>span:last-child{
+    width: 90px;
+    height: 36px;
+    line-height: 36px;
+    text-align: center;
+
+}
+
+.Writingclass-phase ul li p:last-child>span.fz15{
+    position: relative;
+    top: -3px;
+    margin-left: 4px;
+}
+
+.ChanJie{
+    /* height: 276px; */
+    display: flow-root;
+    position: relative;
+    padding-bottom: 20px;
+    /* background: url(../img/lectures.png) no-repeat; */
+}
+
+/*全阶*/
+.ChanJie span.live-icon {
+    margin-left: -6%;
+    margin-top: -6%;
+}
+.ChanJie span.live-icon img{
+    width: 100%;
+    height: 100%;
+}
+
+
+.ChanJie span.curriculum{
+    top: 20px;
+    right: 0px;
+}
+
+.ChanJie::after{
+    content: url(../img/lectures.png);
+    width: 100%;
+    margin: 0px auto;
+    display: inline-block;
+    text-align: center;
+    margin-top: 33px;
+}
+
+.ChanJie .pos_r img{
+    width: 488px;
+    height: 276px;
+}
+
+
+/**********   课程-进行的时间   ******/
+
+/*课程进行*/
+.curriculum{
+    padding: 6px 9px 6px 16px;
+    border-radius:21px 0px 0px 21px;
+    font-size: 16px;
+    color: #fff;
+}
+
+
+/*已结课*/
+.Have_class{
+    background: #648EA2;
+}
+
+/*开课中*/
+.In_course{
+    background: #969A70;
+}
+
+/*正在报名*/
+.sign_up{
+    background: #B69271;
+}
+
+/*报名未开始*/
+.Not_started{
+    background: #AD4E3F;
+}
+
+
+/*  文字一行 */
+.text_white{
+    /* white-space: nowrap; */
+}
+.mt-14{
+    margin-top: 14px;
+}
+.mt-16{
+    margin-top: 16px;
+}
+.c0{
+    color: #000;
+}
+.fz12{
+    font-size: 12px;
+}
+.md-5{
+    margin-top: 5px;
+}
+

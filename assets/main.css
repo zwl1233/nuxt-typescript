@@ -1,0 +1,677 @@
+/* 全局Css */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  /* min-width: 1366px;
+  max-width: 1920px;
+  margin: 0 auto; */
+}
+
+.page-enter-active,
+.page-leave-active {
+  transition: opacity .5s;
+}
+
+/* 字体包引入 */
+/* 方正兰亭黑简体 */
+@font-face {
+  font-family: 'FZLTHJW--GB1-0';
+  /* src:url('~assets/font/FZLTHJ.OTF'); */
+  src: url('/dist/font/FZLTHJW.TTF'),
+    url('/dist/font/FZLTHJW.OTF');
+}
+
+/*方正细雅宋简体  */
+@font-face {
+  font-family: 'FZXIYSK--GBK1-0';
+  /* src:url('~assets/font/FZXIYSJ.OTF'); */
+  src: url('/dist/font/FZXIYSJW.ttf'),
+    url('/dist/font/FZXIYSJW.OTF');
+}
+
+/* 方正兰亭黑简体 */
+@font-face {
+  font-family: 'FZLTHJW--GB1-0';
+  src: url('/font/FZLTHJW.TTF'),
+    url('/font/FZLTHJW.OTF');
+}
+
+/*方正细雅宋简体  */
+@font-face {
+  font-family: 'FZXIYSK--GBK1-0';
+  src: url('/font/FZXIYSJW.ttf'),
+    url('/font/FZXIYSJW.OTF');
+}
+
+@font-face {
+  font-family: 'FZLTHJW--GB1-0';
+  /* src:url('~assets/font/FZLTHJ.OTF'); */
+  src: url('/font/FZLTHJW.TTF'),
+    url('/font/FZLTHJW.OTF');
+}
+
+/*方正细雅宋简体  */
+@font-face {
+  font-family: 'FZXIYSK--GBK1-0';
+  /* src:url('~assets/font/FZXIYSJ.OTF'); */
+  src: url('/font/FZXIYSJW.ttf'),
+    url('/font/FZXIYSJW.OTF');
+}
+
+
+.page-enter,
+.page-leave-active {
+  opacity: 0;
+}
+
+html,
+body {
+  width: 100%;
+  background: RGBA(246, 246, 246, 1);
+}
+
+;
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+;
+
+/* 按钮统一 */
+.el-button {
+  width: 90px;
+  height: 32px;
+  line-height: 32px;
+  text-align: center;
+  padding: 0;
+}
+
+/* 提交样式 */
+.el-button--primary {
+  background: rgba(7, 118, 122, 1)
+}
+
+/* 省略号 */
+.ellipsis {
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+/* 区域高 */
+.app-box-height {
+  min-height: 600px;
+}
+
+/* 点赞一行 */
+.wdb100 {
+  width: 140px;
+  display: inline-block;
+  text-align: right;
+}
+
+/* 图片居中化 */
+.thumbImg {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  cursor: pointer;
+}
+
+/* message */
+.el-message {
+  z-index: 999999 !important;
+  min-width: 300px !important;
+  background: rgb(255, 255, 255) !important;
+  font-size: 14px;
+  /* border-color:rgba(186, 161, 130, 1)!important */
+  border: none !important;
+  box-shadow: 0px 1px 10px 0px rgba(159, 159, 159, 0.17)
+}
+
+.el-message>.el-message__content {
+  color: rgba(153, 153, 153, 1) !important;
+}
+
+/* 成功 */
+.el-icon-success {
+  color: rgba(186, 161, 130, 1) !important;
+  font-size: 18px;
+}
+
+/* 警告 */
+.el-icon-warning {
+  color: rgba(186, 161, 130, 1) !important;
+  font-size: 18px;
+}
+
+.el-icon-warning::before {
+  display: none;
+}
+
+.el-icon-warning::after {
+  content: "";
+  background: url('~assets/img/warning.png') no-repeat;
+  background-size: cover;
+  background-position: center center;
+  width: 18px;
+  height: 18px;
+  display: inline-block;
+}
+
+/* 错误 */
+.el-icon-error {
+  color: rgba(186, 161, 130, 1) !important;
+  font-size: 18px;
+}
+
+/* 消息 */
+.el-icon-info {
+  color: rgba(186, 161, 130, .5) !important;
+  font-size: 18px;
+
+}
+
+
+/* 滚动条样式
+::-webkit-scrollbar
+{
+    
+} */
+
+/* 设置滚动条的样式 */
+::-webkit-scrollbar {
+  width: 6px;
+  background-color: white;
+  border-radius: 50px;
+}
+
+/* 滑块 */
+::-webkit-scrollbar-thumb {
+  background-color: #DDDDDD;
+  border-radius: 20px;
+}
+
+
+.app-star {
+  width: 14px;
+  /* height: 14px; */
+  margin-bottom: -1px;
+  cursor: pointer;
+
+}
+
+.app-star-line {
+  font-size: 12px;
+  margin: 0 5px;
+  /* font-weight: 600; */
+}
+
+/* 提交按钮 */
+.el-button--primary {
+  background: #07767a !important;
+  border-color: #07767a !important;
+}
+
+
+/* 字体样式类名 */
+/* 黑简体 */
+.fonH {
+  /* font-family: FZLTHJW; */
+  font-family: FZLTHJW--GB1-0
+}
+
+/* 宋简体 */
+.fonS {
+  /* font-family: FZXIYSK; */
+  font-family: FZXIYSK--GBK1-0;
+
+}
+
+/* 针对价格 */
+.fonA {
+  font-family: ArialRoundedMTBold
+}
+
+/* 密码显示样式 */
+.fonPs {
+  /* font-family:monospace!important; */
+}
+
+
+/* 字间距  2px */
+.les {
+  letter-spacing: 2px !important;
+}
+.les1 {
+  letter-spacing: 1px !important;
+}
+.mt-25{
+  margin-top: 25px;
+}
+
+
+/* 加载更多样式 */
+.afters {
+  color: rgba(180, 152, 118, 1);
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+/* 图标与数字对其 */
+.iconNum {
+  vertical-align: 1px
+}
+
+/* safari下input关标问题 */
+input {
+  line-height: normal !important;
+}
+
+/* 清除浮动 */
+.app-clear:after {
+  content: "";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+
+.app-clear {
+  /* 触发 hasLayout */
+  zoom: 1;
+}
+
+/* 勾选框check颜色更改 */
+
+/* 鼠标经过 */
+.app-check-color-change>.el-checkbox__input>.el-checkbox__inner:hover {
+  border-color: rgba(180, 152, 118, 1);
+}
+
+.app-check-color-change>.el-checkbox__input.is-focus>.el-checkbox__inner {
+  border-color: rgba(180, 152, 118, 1);
+}
+
+/* 选中状态 */
+.app-check-color-change>.el-checkbox__input.is-checked>.el-checkbox__inner {
+  border-color: rgba(180, 152, 118, 1);
+  background-color: rgba(180, 152, 118, 1);
+}
+
+/* 文字 */
+.app-check-color-change.is-checked>.el-checkbox__label {
+  color: rgba(180, 152, 118, 1) !important;
+}
+
+/* 单选框颜色更改  radio */
+
+.app-radio-group-color-change>.el-radio>.el-radio__input>.el-radio__inner:hover {
+  border-color: rgba(180, 152, 118, 1);
+}
+
+.el-input.is-active .el-input__inner,
+.el-input__inner:focus {
+  border-color: rgba(196, 165, 127, 0.3) !important;
+}
+
+/* input框正确状态 颜色改变 */
+.app-input-change-color {}
+
+/* 暄桐金 */
+
+.xtjing {
+  color: rgba(180, 152, 118, 1) !important;
+}
+
+/* 富文本表情对齐 */
+.app-richText-msg img {
+  vertical-align: middle;
+}
+
+/* 去除input的边框线 */
+.outline {
+  outline: none;
+}
+
+
+/* message */
+/* .el-message.el-message--warning{
+    border-radius: 100px;
+    background: rgba(180, 152, 118, 0.6);
+    top: 50px;
+  }
+  .el-message.el-message--warning>.el-message__content{
+    color: red;
+  } */
+/* .el-message.el-message--warning>i::before{
+    color: red;
+    display: none;
+  } */
+/* .el-message.el-message--warning>i::after{
+     color: red; 
+    content: "";
+    background: url("./img/course1.png") no-repeat center center;
+    background-size: cover;
+    width: 20px;
+    height: 20px;
+    display: block;
+    border-radius: 50%;
+  } */
+
+
+
+
+/* button{
+  outline:none
+} */
+
+/* 首页副标题 */
+
+.app-index-Subheading {
+  color: rgba(100, 91, 85, .6) !important;
+}
+
+/* 首页查看更多 */
+.app-index-look-more {
+  color: rgba(135, 124, 117, .6) !important;
+
+}
+
+/* 弹出框统一 */
+
+.app-change-el-dislog>.el-dialog__header {
+  display: block !important;
+  padding: 0 !important;
+}
+
+.app-change-el-dislog>.el-dialog__header>.el-dialog__headerbtn {
+  z-index: 2;
+}
+
+.app-change-el-dislog>.el-dialog__header>.el-dialog__headerbtn>i {
+  color: #C4A57F !important;
+}
+
+.app-change-el-dislog>.el-dialog__header>.el-dialog__headerbtn>i:hover {
+  color: #C4A57F !important;
+}
+
+/* 面包屑样式 */
+.el-breadcrumb {
+  font-size: 18px !important;
+}
+
+.el-breadcrumb__inner a:hover,
+.el-breadcrumb__inner.is-link:hover {
+  color: #c4a57f !important;
+  cursor: pointer;
+}
+
+.el-breadcrumb__inner a,
+.el-breadcrumb__inner.is-link {
+  color: rgba(153, 153, 153, 1) !important;
+  font-weight: 400 !important;
+}
+
+.el-breadcrumb__item:last-child .el-breadcrumb__inner,
+.el-breadcrumb__item:last-child .el-breadcrumb__inner a,
+.el-breadcrumb__item:last-child .el-breadcrumb__inner a:hover,
+.el-breadcrumb__item:last-child .el-breadcrumb__inner:hover {
+  color: #333333 !important;
+}
+
+/* 课程列表的状态值 */
+.app-change-classList-status {
+  color: rgba(153, 153, 153, 1);
+  font-size: 14px;
+  margin-left: 9px;
+}
+
+/* element tab切换字体 */
+.app-change-class-tabs .el-tabs__item {
+  font-size: 18px !important;
+}
+
+/* tab切换的tabs字体 粗细 */
+/* .app-change-el-tabs-span{
+  font-size:18px;
+  font-weight: 600;
+  font-family: FZXIYSK;
+  color: #333333;
+} */
+
+/* 课程下的tab切换 tabs文字与样式 */
+.app-change-class-tabs>.el-tabs__header .el-tabs__item {
+  color: #333333;
+  font-weight: 600;
+  font-size: 18px;
+  font-family: FZXIYSK;
+}
+
+/* .app-change-class-tabs>.el-tabs__header .el-tabs__item:hover{
+  color: #c4a57f;
+} */
+.app-change-class-tabs>.el-tabs__header .el-tabs__item.is-active {
+  color: #c4a57f;
+}
+
+
+/*  修改评论框但margin-=top50px */
+.app-change-richText-mt50 #wangeditor {
+  margin-top: 0;
+
+}
+
+/* 共几张 */
+.app-change-pic-num {
+  margin-bottom: 12px;
+  font-size: 12px;
+  color: rgba(0, 0, 0, .5);
+}
+
+/* 评论内容 */
+
+.app-change-content-text {
+  line-height: 26px;
+  color: rgba(0, 0, 0, 0.7);
+  font-size: 14px;
+}
+.app-change-content-text img{
+  vertical-align: middle;
+
+}
+
+
+/* 密码框的显示隐藏 */
+.app-password-showHid>.el-input__suffix {
+  font-size: 18px;
+  right: 10px !important;
+  /* display: none; */
+  opacity: 0;
+  z-index: 1000;
+  pointer-events:auto!important
+}
+.app-password-showHid>.el-input__suffix.db{
+  opacity: 1!important;
+}
+
+/* .app-password-showHid>.el-input__inner:focus+ .el-input__suffix{
+  display: block;
+} */
+
+
+/* 布局 */
+.app-change-body {
+  min-width: 1366px;
+  max-width: 1920px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+/* 所在地必填 */
+.app-change-location-require>.el-form-item__label::before {
+  content: '*';
+  color: #f56c6c;
+  margin-right: 4px
+}
+
+
+/* v-lazy的加载样式 */
+img[lazy=loading]{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+img[lazy=error]{
+  width: 100%!important;
+  height: 100%!important;
+  object-fit: cover!important;
+}
+
+/* 底部出框多问题 */
+.el-footer{
+  min-width: 1366px;
+}
+/* 富文本生成的html字符串 换行无效 */
+.app-change-index-richText p{
+  min-height:1rem
+}
+/* 富文本图片问题 */
+.app-change-index-richText img{
+  margin: 10px auto;
+  display: block;
+  max-width: 100%;
+  height: auto;
+  border-radius: 4px;
+}
+.app-change-index-richText video{
+  outline:none;
+  margin: 10px auto;
+  display: block;
+  max-width: 100%;
+  height: auto;
+  border-radius: 4px;
+}
+/* 富文本的线 */
+.app-change-index-richText hr{
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border: 0;
+  border-top: 1px solid #f5f5f5;
+}
+
+/* 消息图标 */
+.icon-message::before{
+  content:"";
+  /* background: url("~assets/img/message_icon1.png") no-repeat center; */
+  background: url("~assets/changeIcon/7.png") no-repeat center;
+  width: 12px;
+  height: 12px;
+  display: inline-block;
+  background-size:cover;
+  transform: translateY(1px);
+}
+
+
+/* 解决tab切换 */
+.el-tabs__item:focus.is-active.is-focus:not(:active) {
+  -webkit-box-shadow: none !important;
+  box-shadow: none !important;
+}
+
+/* h5表情图太大 */
+img.emoji{
+  width: 1.25rem!important;
+  height: 1.25rem!important;
+}
+
+/* 后台表情 */
+.braft-emoticon-wrap img{
+  width: 1.25rem!important;
+  height: 1.25rem!important;
+}
+
+/* 文字截取 */
+.app-clip-text{
+  width: 450px;
+  overflow: hidden;
+  text-overflow: clip;
+  white-space: nowrap;
+}
+
+/* 修改图标的icon */
+.app-change-icon{
+  width: 20px!important;
+  vertical-align: middle;
+}
+
+/* 观看人数icon */
+.el-icon-view::before{
+  content: ""!important;
+  background: url("~assets/changeIcon/6.png")no-repeat center;
+  background-size: cover;
+  width: 18px;
+  height: 18px;
+  display: block;
+}
+
+/* 开课前了解 */
+.el-icon-question::before{
+  content:""!important;
+  background: url("~assets/changeIcon/13.png")no-repeat center;
+  background-size: cover;
+  width: 18px;
+  height: 18px;
+  display: block;
+}
+
+/* 赠课 */
+.el-icon-printer::before{
+  content:""!important;
+  background: url("~assets/changeIcon/14.png")no-repeat center;
+  background-size: cover;
+  width: 28px;
+  height: 28px;
+  display: block;
+
+}
+
+/* 无数据图文字颜色 */
+.colorNoData{
+  color:rgba(153, 153, 153, 1)!important;
+}
+
+.fz13{
+  font-size: 13px;
+}
+
+/* 文字颜色 */
+.cfont{
+  color:rgba(0,0,0,.7)!important;
+
+}
+
+
+/* 文字不加粗 */
+.normal{
+  font-weight: 400;
+}
+
+
+
+
+/* ie兼容 */
+
+/* ie下图片自动宽高 */
+img {
+  height: auto;
+  width: auto;
+}
+
+
